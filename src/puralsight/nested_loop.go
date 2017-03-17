@@ -9,6 +9,7 @@ func main() {
 	courseInProg := []string{"one", "two", "three"}
 	courseCompleted := []string{"one", "four", "six"}
 
+	//for returns index and data _ is index
 	for _, i := range courseInProg {
 		fmt.Println(i)
 		for _, j := range courseCompleted {
